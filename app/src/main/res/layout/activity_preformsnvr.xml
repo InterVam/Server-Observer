@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Preformsnvr">
+
+    <com.github.anastr.speedviewlib.SpeedView
+        android:id="@+id/CPU"
+        android:layout_width="171dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sv_centerCircleColor="@color/white"
+        app:sv_indicatorColor="@color/black"
+        app:sv_maxSpeed="100"
+        app:sv_speedTextColor="@color/white"
+        app:sv_speedTextSize="20dp"
+        app:sv_textColor="@color/white"
+        app:sv_tickNumber="5"
+        app:sv_unit="  %   CPU"
+        app:sv_unitTextColor="@color/white" />
+
+    <com.github.anastr.speedviewlib.SpeedView
+        android:id="@+id/RAM"
+        android:layout_width="171dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sv_centerCircleColor="@color/white"
+        app:sv_indicatorColor="@color/black"
+        app:sv_maxSpeed="100"
+        app:sv_speedTextColor="@color/white"
+        app:sv_speedTextSize="20dp"
+        app:sv_textColor="@color/white"
+        app:sv_tickNumber="5"
+        app:sv_unit="  %   RAM"
+        app:sv_unitTextColor="@color/white" />
+
+    <com.github.anastr.speedviewlib.SpeedView
+        android:id="@+id/TEMP"
+        android:layout_width="171dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="520dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:sv_centerCircleColor="@color/white"
+        app:sv_indicatorColor="@color/black"
+        app:sv_maxSpeed="100"
+        app:sv_speedTextColor="@color/white"
+        app:sv_speedTextSize="20dp"
+        app:sv_textColor="@color/white"
+        app:sv_tickNumber="5"
+        app:sv_unit="  °C TEMP"
+        app:sv_unitTextColor="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
