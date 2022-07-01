@@ -1,4 +1,5 @@
 Android Application
+
 The android application the main interface for the user to check the status of the server.
 
 App repo: https://github.com/InterVam/Server-Observer
